@@ -53,7 +53,7 @@ defmodule PrometheusPlugs.Mixfile do
     [
       {:accept, "~> 0.1"},
       {:plug, "~> 1.0"},
-      {:prometheus_ex, "~> 1.1 or ~> 2.0 or ~> 3.0"},
+      {:prometheus_ex, "~> 3.0", github: "rozanov61/prometheus.ex"},
       {:prometheus_process_collector, "~> 1.1", optional: true},
 
       {:earmark, ">= 0.0.0", only: :dev},
